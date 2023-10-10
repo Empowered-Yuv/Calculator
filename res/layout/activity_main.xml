@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/soln"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="16sp"
+        android:layout_marginBottom="16sp"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="textEnd"
+        android:textSize="64sp"
+        android:id="@+id/res"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonPanel"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="16sp"
+        android:layout_marginBottom="16sp"
+        android:text=""
+        android:textAlignment="textEnd"
+        android:textSize="32sp"
+        android:id="@+id/soln"/>
+
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_allcl"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/ac"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_cl"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/c"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_per"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/per"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_div"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/div"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_7"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_7"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_8"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_8"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_9"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_9"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_mul"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/mul"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_4"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_5"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_6"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_6"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_minus"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/minus"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_3"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/button_1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_1"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_plus"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/plus"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_double0"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_00"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_0"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/_0"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_point"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/point"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+
+            <Button
+                android:id="@+id/button_eq"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="15sp"
+                android:background="@drawable/button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/eq"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
